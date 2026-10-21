@@ -1,0 +1,14 @@
+{
+  "name": "akaditi-multitech",
+  "compatibility_date": "2026-10-21",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "akaditimultitech.com", "custom_domain": true },
+    { "pattern": "www.akaditimultitech.com", "custom_domain": true }
+  ]
+}

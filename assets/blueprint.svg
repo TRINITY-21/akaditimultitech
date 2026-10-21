@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <g stroke="#4A90C2" stroke-width="0.6" opacity="0.35">
+    <!-- Grid -->
+    <path d="M0 40 H1200 M0 80 H1200 M0 120 H1200 M0 160 H1200 M0 200 H1200 M0 240 H1200 M0 280 H1200 M0 320 H1200 M0 360 H1200 M0 400 H1200 M0 440 H1200 M0 480 H1200 M0 520 H1200 M0 560 H1200 M0 600 H1200 M0 640 H1200 M0 680 H1200 M0 720 H1200 M0 760 H1200"/>
+    <path d="M40 0 V800 M80 0 V800 M120 0 V800 M160 0 V800 M200 0 V800 M240 0 V800 M280 0 V800 M320 0 V800 M360 0 V800 M400 0 V800 M440 0 V800 M480 0 V800 M520 0 V800 M560 0 V800 M600 0 V800 M640 0 V800 M680 0 V800 M720 0 V800 M760 0 V800 M800 0 V800 M840 0 V800 M880 0 V800 M920 0 V800 M960 0 V800 M1000 0 V800 M1040 0 V800 M1080 0 V800 M1120 0 V800 M1160 0 V800"/>
+  </g>
+  <!-- Mechanical drawings -->
+  <g stroke="#5BA3D9" stroke-width="1.2" fill="none" opacity="0.4">
+    <circle cx="220" cy="200" r="70"/>
+    <circle cx="220" cy="200" r="45"/>
+    <circle cx="220" cy="200" r="20"/>
+    <line x1="150" y1="200" x2="290" y2="200"/>
+    <line x1="220" y1="130" x2="220" y2="270"/>
+    <!-- Gear outline -->
+    <path d="M900 180 l18-8 8 16 18 2 2 18 16 8 -8 16 2 18 -16 8 -2 18 -18 2 -8 16 -18-8 -16 8 -8-16 -18-2 -2-18 -16-8 8-16 -2-18 16-8 2-18 18-2 8-16z"/>
+    <circle cx="900" cy="220" r="28"/>
+    <!-- Structural beam -->
+    <rect x="480" y="420" width="280" height="40"/>
+    <line x1="480" y1="440" x2="760" y2="440"/>
+    <path d="M500 460 L520 520 L540 460 M600 460 L620 540 L640 460 M700 460 L720 520 L740 460"/>
+    <!-- Pipe schematic -->
+    <path d="M100 550 H300 Q320 550 320 570 V650 Q320 670 340 670 H500"/>
+    <circle cx="320" cy="570" r="8"/>
+    <rect x="420" y="650" width="60" height="40" rx="2"/>
+    <!-- Dimension marks -->
+    <line x1="480" y1="400" x2="760" y2="400"/>
+    <line x1="480" y1="395" x2="480" y2="405"/>
+    <line x1="760" y1="395" x2="760" y2="405"/>
+  </g>
+  <g fill="#5BA3D9" opacity="0.3" font-family="monospace" font-size="11">
+    <text x="500" y="390">2800mm</text>
+    <text x="160" y="120">GEAR ASSEMBLY A-01</text>
+    <text x="820" y="140">HUB DETAIL</text>
+  </g>
+</svg>
